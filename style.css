@@ -9,11 +9,13 @@
 
     .first-section {
 
-        background: rgba(0, 0, 3, 0.7)url(images/donation12.png);
+        background: rgba(0, 0, 0, 0.7)url(images/donation12.png);
         text-align: center;
         padding: 120px;
         background-size: cover;
-        background-blend-mode: darken;
+        background-blend-mode: soft-light;
+        width: auto;
+        height: auto;
 
 
     }
@@ -39,3 +41,9 @@
         padding: 15px;
         color: white;
     }
+
+    .section-two {
+        text-align: center;
+    }
+
+    .section-two-content {}
