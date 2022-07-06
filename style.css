@@ -10,7 +10,7 @@
         text-align: center;
         padding: 120px;
         background-size: cover;
-        background-blend-mode: soft-light;
+        background-blend-mode: darken;
         width: auto;
         height: auto;
 
@@ -42,9 +42,8 @@
 
     .section-two {
         text-align: center;
-
-
     }
+
 
 
 
@@ -203,4 +202,113 @@
         color: #707070;
     }
 
-    .subs {}
+    .subs {
+
+        background-color: #FFF4D6;
+        width: 52%;
+        margin: 40px auto;
+        border-radius: 5px;
+
+    }
+
+    .subs-form form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 84px 0;
+    }
+
+    .subs-form form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 0;
+
+    }
+
+    .subs-input::placeholder {
+        font-size: 16px;
+        ;
+    }
+
+    .subs-button {
+        text-decoration: none;
+        background-color: #FF5959;
+        color: #fff;
+        padding: 15px 35px;
+        font-weight: 500;
+        font-size: 13px;
+        border: none;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-weight: 500;
+
+
+    }
+
+    .subs-input {
+        background-color: #D9D9D9;
+    }
+
+    .subs-input {
+        padding: 15px 20px;
+        width: 40%;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: none;
+        margin: -7px;
+    }
+
+    .extra-margin {
+
+        margin: 50px 0;
+    }
+
+    footer {
+
+        background-color: #0B0D17;
+        text-align: center;
+        padding: 26px;
+
+    }
+
+    footer h3 {
+
+        color: #FF5959;
+        font-family: 'Lobster', cursive;
+        font-size: 35px;
+    }
+
+    footer p {
+
+        color: #D9DBE1;
+        font-family: 'Inter', sans-serif;
+        font-weight: 200;
+
+    }
+
+
+    .button-color-blog-1 {
+
+        text-decoration: none;
+        background-color: transparent;
+        padding: 10px 20px 10px 20px;
+        color: #FF5959;
+        border-radius: 5px;
+        border: 2px solid #FF5959;
+
+
+    }
+
+    .item-post-color {
+
+
+        background: ash;
+        color: #FF5959;
+        border: 2px solid #FF5959;
+    }
+
+    .section-two h1 {
+
+        font-size: 40px;
+    }
