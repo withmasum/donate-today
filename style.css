@@ -188,13 +188,20 @@
         font-size: 40px;
     }
 
-    .half-width p {
 
-        color: #707070;
-    }
 
     .flexible-section-container {
         display: flex;
         justify-content: center;
         padding: 28px;
+    }
+
+    .section-two p {
+
+        color: #707070;
+
+    }
+
+    .color-p p {
+        color: #707070;
     }
